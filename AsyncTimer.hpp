@@ -24,7 +24,7 @@ namespace YukiWorkshop {
 			std::function<void(const boost::system::error_code &e)> func_wrapper;
 			bool autofree = false;
 
-			TimerContext(boost::asio::io_service &__io_svc) : timer(__io_svc) {
+			explicit TimerContext(boost::asio::io_service &__io_svc) : timer(__io_svc) {
 
 			}
 		};
@@ -77,7 +77,7 @@ namespace YukiWorkshop {
 				TimerContext *ctx;
 			};
 
-			ctx->func_wrapper = [ctx, __timeout](const boost::system::error_code &e) {
+			ctx->func_wrapper = [ctx](const boost::system::error_code &e) {
 				if (e) {
 					delete ctx;
 					return;

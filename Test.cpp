@@ -25,7 +25,6 @@ int main() {
 		if (cnt == 5) clearInterval(t);
 	}, 1000);
 
-
 	TimerContext *t2 = setInterval(iosvc, [&](){
 		puts("bbbb");
 		cnt2++;
