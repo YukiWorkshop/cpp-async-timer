@@ -1,4 +1,8 @@
 # cpp-async-timer
+[![pipeline status](https://gitlab.com/ReimuNotMoe/cpp-async-timer/badges/master/pipeline.svg)](https://gitlab.com/ReimuNotMoe/cpp-async-timer/commits/master)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/afc64343f5ac4395bc1c145dfab95684)](https://www.codacy.com/gh/YukiWorkshop/cpp-async-timer)
+[![coverage report](https://gitlab.com/ReimuNotMoe/cpp-async-timer/badges/master/coverage.svg)](https://gitlab.com/ReimuNotMoe/cpp-async-timer/commits/master)
+
 C++ async setInterval &amp; setTimeout implementation using Boost.
 
 ## Requirements
