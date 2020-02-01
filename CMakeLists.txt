@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.2)
-project(cpp_async_timer)
+project(cpp-async-timer)
 
 set(CMAKE_CXX_STANDARD 14)
 
